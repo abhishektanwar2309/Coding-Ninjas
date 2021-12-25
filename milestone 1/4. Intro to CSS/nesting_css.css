@@ -1,0 +1,30 @@
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+.cursive{
+    font-family: cursive;
+}
+#blog-desc{
+    color: darkgreen;
+}
+
+/* .site-desc p{
+    font-family: cursive;
+    color: pink;
+} */
+#blog-desc p{
+    font-family: cursive;
+    color: red;   
+}
+#blog-title:hover{
+    color: orangered;
+}

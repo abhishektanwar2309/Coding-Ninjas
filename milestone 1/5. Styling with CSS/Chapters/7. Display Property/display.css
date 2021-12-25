@@ -1,0 +1,21 @@
+span{
+    display: block;
+}
+#div1{    
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    /* adding negative right margin  */
+    margin-right: -4px;
+}
+#div2{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+/* #div1,#div2{
+    display: inline;
+} */
+#div1,#div2{
+    display: inline-block;
+}
