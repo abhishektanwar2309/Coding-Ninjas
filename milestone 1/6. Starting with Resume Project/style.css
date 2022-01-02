@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+}
+/* Body Header  */
+#body-header{
+    height: 65vh;
+    background-image: url(image/macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    background-attachment: fixed;
+    margin: 0px;
+    /* display: table-cell; */
+}
+
+/* Rules for Horizontal Lists  */
+.horizontal-list{
+    list-style:none;
+    padding-left: 0px;
+    margin-top: 0px;
+    
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px;
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+}
+.nav-menu{
+    transition: color 0.5s, border-bottom 4s;
+}
+.nav-menu li a:hover{
+    color: lightgray;
+    border-bottom: 1px solid white;
+}
+/* name text in the center  */
+/* positioning it vertically  */
+#name-social-container{
+    margin-top: 25vh;
+}
+#my-name{
+    color: white;
+    font-size: 3rem;
+}
+.social-icons li a i{
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 50%;
+    
+}
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3);
+}
+.text-center{
+    text-align: center;
+}
+
+/* about section  */
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -12vh;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+/*
+
+1. Linkedin - https://ninjasfiles.s3.amazonaws.com/asset_0000000000000015_1549330433_linkedin-logo.png
+
+2. Stackoverflow - https://ninjasfiles.s3.amazonaws.com/asset_0000000000000022_1549822879_stackoverflow-logo.png
+
+3. Google Plus - https://ninjasfiles.s3.amazonaws.com/asset_0000000000000023_1549823282_google-plus-logo.png
+
+4. Facebook - https://ninjasfiles.s3.amazonaws.com/asset_0000000000000014_1549330414_facebook-logo.png
+
+5. Quora - https://ninjasfiles.s3.amazonaws.com/asset_0000000000000021_1549822861_quora-logo.png
+The shadow used on the social icons is of the color - 'rgba(230,196,196,0.3)'.
+
+*/
